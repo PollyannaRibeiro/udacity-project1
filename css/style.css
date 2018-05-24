@@ -1,0 +1,131 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    width: 100%;
+}
+
+h1{
+    font-size: 3em;
+    font-weight: 100;
+}
+
+h2{
+    font-size: 1.2em;
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1.8em;
+    padding-bottom:  0.5em;
+    margin-left: 0.5em;
+    font-weight: 300;
+    color: #868686;
+} 
+
+h4{
+    font-size: 1.2em;
+    font-weight: 400;
+    padding: 0.5em 0 0.1em;
+    text-align: center;
+} 
+
+p{
+    font-size: 0.8em;
+    font-weight: 300;
+    text-align: justify;
+    padding: 0.5em 1em;
+}
+
+/* Header */
+
+#logo{
+    font-size: 5em;
+    padding-left: 10%;
+}
+
+#nav-info ul li{
+    list-style-type: none;
+} 
+
+#icon-menu-responsive{
+    display: none;
+}
+
+#menu-responsive-mobile{
+    display: none;
+}
+
+#nav-row{
+    margin-top: 1em;
+    border-bottom: 0.1em solid rgba(38, 38, 56, 0.192);
+    box-shadow: 0px 2px 3px -2px #7e7e7e;
+}
+#nav-info{
+    text-align: right;
+}
+
+/* cards */
+
+#projects{
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+
+a.cards{
+    text-decoration: none;
+    color: black;
+}
+
+.project-cards:hover{
+    box-shadow: 2px 1px 3px 0px #dbdbdb;
+    transition: 0.2s;
+}
+
+/* footer */
+
+footer{
+    background-color: #ebebeb;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.social-media ul{
+    vertical-align: text-top;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.social-media ul li {
+    display: inline-block;
+    font-size: 2em;
+    color: black; 
+    vertical-align: text-top;
+    padding: 0.5em;
+    margin: 0 0.05em;
+    border-radius: 0.5em;
+    box-shadow: 1px 1px 1px 0px #cacaca;
+}
+
+.social-media ul li a{
+    color: black; 
+    text-decoration: none;
+}
+
+.social-media ul li:hover{
+    background-color: #f0f0f0;
+}
+
+.social-media p{
+    font-size: 1em;
+    text-align: center;
+    margin-top: -1em;
+}
+
+/* zocial */
+
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;    
+}
+

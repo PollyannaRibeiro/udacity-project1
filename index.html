@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/structure.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet">
+    <link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
+
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="row" id="nav-row">
+            <div class="col-3" id="logo">
+                🍀  <!-- temporary logo-->
+            </div>
+
+            <div class="col-9" id="nav-info">
+                <ul>
+                    <li>
+                        <h1>POLLYANNA RIBEIRO</h1>
+                        <h2>FRONT-END DEVELOPER</h2>
+                    </li>    
+                    <li> <a id="menu-icon"><img id="icon-menu-responsive" src="img/menu/header-menu.svg" alt="responsive menu icon"></a></li>
+                </ul>
+            </div> 
+        </nav>
+
+        <nav id="menu-responsive-mobile">
+                <ul> 
+                    <li class="menu-title"><a href="#">Projects</a></li>
+                    <li><a href="#">Project 1</a></li>
+                    <li><a href="#">Project 2</a></li>
+                    <li><a href="#">Project 3</a></li>
+                </ul>
+            </nav>
+    </header>
+
+    <main>
+       <div class="container">
+            <div class="row" id="main-picture">
+                <figure class="col-12">
+                    <picture>
+                        <source media="(min-width: 701px)" srcset="img/img-L/lugano-main-picture-large.jpg">
+                        <source media="(min-width: 351px) and (max-width: 700px)" srcset="img/img-M/lugano-main-picture-medium.jpg">
+                        <source media="(max-width: 350px)" srcset="img/img-S/lugano-main-picture-small.jpg 1x, img/img-M/lugano-main-picture-medium.jpg 2x"> 
+                        <img src="img/img-L/lugano-main-picture-large.jpg" alt="View of Lugano city, a tulips garden, trees, a house and a beautiful lake on background">    
+                    </picture>
+                </figure>
+            </div>
+       </div>
+
+        <div class="container" id="projects">
+            <section class="row">
+                <h3>Featured Work</h3>
+                <article class="col-4 project-cards">
+                    <a href="#" class="cards">
+                        <picture>
+                            <source media="(min-width: 701px)" srcset="img/img-L/lugano-garden1-large.jpg">
+                            <source media="(min-width: 351px) and (max-width: 700px)" srcset="img/img-M/lugano-garden1-medium.jpg">
+                            <source media="(max-width: 350px)" srcset="img/img-S/lugano-garden1-small.jpg 1x, img/img-M/lugano-garden1-medium.jpg 2x"> 
+                            <img src="img/img-L/lugano-garden1-large.jpg" alt="View of Lugano city, a garden with yellow tulips, trees and a beautiful mountain on background">    
+                        </picture>
+                        <h4>Project 1</h4>
+                        <p>Do eu irure ipsum consectetur incididunt consequat fugiat. Id nulla 
+                            cupidatat velit et qui adipisicing ut sint consequat et nulla cillum 
+                            ad id. Exercitation voluptate velit incididunt labore. Minim qui 
+                            nulla sunt consequat eiusmod in laborum.
+                        </p>
+                    </a> 
+                </article>
+    
+                <article class="col-4 project-cards">
+                    <a href="#" class="cards">
+                        <picture>
+                            <source media="(min-width: 701px)" srcset="img/img-L/lugano-garden2-large.jpg">
+                            <source media="(min-width: 351px) and (max-width: 700px)" srcset="img/img-M/lugano-garden2-medium.jpg">
+                            <source media="(max-width: 350px)" srcset="img/img-S/lugano-garden2-small.jpg 1x, img/img-M/lugano-garden2-medium.jpg 2x"> 
+                            <img src="img/img-L/lugano-garden2-large.jpg" alt="A garden with yellow tulips, leafless trees and a beautiful mountain on background">    
+                        </picture>
+                        <h4>Project 2</h4>
+                        <p>Do eu irure ipsum consectetur incididunt consequat fugiat. Id nulla 
+                            cupidatat velit et qui adipisicing ut sint consequat et nulla cillum 
+                            ad id. Exercitation voluptate velit incididunt labore. Minim qui 
+                            nulla sunt consequat eiusmod in laborum.
+                        </p>
+                    </a> 
+                </article>
+    
+                <article class="col-4 project-cards">
+                    <a href="#" class="cards">
+                        <picture>
+                            <source media="(min-width: 701px)" srcset="img/img-L/lugano-garden3-large.jpg">
+                            <source media="(min-width: 351px) and (max-width: 700px)" srcset="img/img-M/lugano-garden3-medium.jpg">
+                            <source media="(max-width: 350px)" srcset="img/img-S/lugano-garden3-small.jpg 1x, img/img-M/lugano-garden3-medium.jpg 2x"> 
+                            <img src="img/img-L/lugano-garden1-large.jpg" alt="A garden with yellow tulips, leafless trees and a beautiful mountain on background">    
+                        </picture>
+                        <h4>Project 3</h4>
+                        <p>Do eu irure ipsum consectetur incididunt consequat fugiat. Id nulla 
+                            cupidatat velit et qui adipisicing ut sint consequat et nulla cillum 
+                            ad id. Exercitation voluptate velit incididunt labore. Minim qui 
+                            nulla sunt consequat eiusmod in laborum.
+                        </p>
+                    </a> 
+                </article>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="row">
+            <div class="col-12 social-media">
+                <ul>
+                   <li><a class="zocial-twitter" href="#"></a></li>
+                   <li><a class="zocial-linkedin" href="#"></a></li>
+                   <li><a class="zocial-email" href="#"></a></li>
+                   <li><a class="zocial-github" href="#"></a></li>
+                </ul>
+                <p>© 2018 - Pollyanna Ribeiro</p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="js/index.js"></script>   
+</body>
+
+</html>
