@@ -25,6 +25,10 @@
         font-size: 3em;    
     }
 
+    #logo img{
+        width: 1.2em;
+    }
+
     #nav-info{
         padding-right: 2%;
     }
