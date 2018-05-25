@@ -99,13 +99,10 @@ footer{
 
 .social-media ul li {
     display: inline-block;
-    font-size: 2em;
     color: black; 
     vertical-align: text-top;
-    padding: 0.5em;
-    margin: 0 0.05em;
-    border-radius: 0.5em;
-    box-shadow: 1px 1px 1px 0px #cacaca;
+    padding: 0.5em 0;
+    margin: 0 0.1em;
 }
 
 .social-media ul li a{
@@ -113,16 +110,18 @@ footer{
     text-decoration: none;
 }
 
-.social-media ul li:hover{
-    background-color: #f0f0f0;
-}
 
+
+.social-media .icon-social-media{
+    width: 3em;
+    text-align: center;
+    margin-top: 0em;
+}
 .social-media p{
     font-size: 1em;
     text-align: center;
     margin-top: -1em;
 }
-
 /* zocial */
 
 [class*="zocial-"]:before {
